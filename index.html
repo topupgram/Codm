@@ -138,7 +138,7 @@
 <body>
   <div class="container">
     <h1>Call Of Duty Mobile – Indonesia</h1>
-    <div class="subtitle">Pricelist CP (klik pricebox untuk isi form)</div>
+    <div class="subtitle">Garena</div>
 
     <!-- CP List -->
     <div class="section">
@@ -212,11 +212,11 @@
       <div class="section-title">Form Order</div>
 
       <form id="orderForm" onsubmit="sendToWhatsApp(event)">
-        <label for="userId">User ID (Server):</label>
+        <label for="userId">Open ID:</label>
         <input
           type="text"
           id="userId"
-          placeholder="contoh: 12345678(1234)"
+          placeholder="OPEN ID bukan UID! (contoh: 12345678987654321)"
           required
         />
 
@@ -349,7 +349,7 @@
 
       var message =
         '**Order CP Call Of Duty Mobile - Indonesia**\n' +
-        'User ID (Server): ' + userId + '\n' +
+        'Open ID: ' + userId + '\n' +
         'Nickname in game: ' + nickname + '\n' +
         'Order: ' + orderText + '\n' +
         'Jumlah: x' + qty + '\n' +
